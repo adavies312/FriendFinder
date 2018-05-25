@@ -220,7 +220,7 @@
         <footer class="footer">
             <div class="container">
                 <p>
-                    <a href="/api/data/friends">API Friends List</a> |
+                    <a href="/api/friends">API Friends List</a> |
                     <a href="https://github.com/adavies312/FriendFinder">GitHub Repo</a>
                 </p>
             </div>
@@ -233,6 +233,36 @@
 
 
     <script type="text/javascript">
+        // check if all questions have been answered 
+        // AJAX call
+        //Make a scores array that you push results to 
+        //update modal 
+        $('#submit').on('click', function () {
+            event.preventDefault();
+            var match = $('.modal-title');
+            var modalBody = $('.modal-body');
+            var name = $('#name').val().trim();
+            var photo = $('#photo').val();
+            var question1 = parseInt($('#question1').val());
+            var question2 = parseInt($('#question2').val());
+            var question3 = parseInt($('#question3').val());
+            var question4 = parseInt($('#question4').val());
+            var question5 = parseInt($('#question5').val());
+            var question6 = parseInt($('#question6').val());
+            var question7 = parseInt($('#question7').val());
+            var question8 = parseInt($('#question8').val());
+            var question9 = parseInt($('#question9').val());
+            var question10 = parseInt($('#question10').val());
+
+            var user = {
+                name: name,
+                photo: photo,
+                scores: [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10]
+            };
+
+            console.log(user);
+
+        })
 
     </script>
 
