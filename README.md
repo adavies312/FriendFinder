@@ -1,4 +1,13 @@
-# FriendFinder# Friend Finder - Node and Express Servers
+# Friend Finder - Node and Express Servers
+
+## Built With
+
+* Node.js
+* Express 
+* JavaScript
+* jQuery
+* Bootstrap
+* Font Awesome Icons
 
 ### Overview
 
@@ -9,8 +18,13 @@ You will use Express to handle routing. Make sure you deploy your app to Heroku 
 ## Screenshot of Homepage:
 ![friend](/images/friend.png)
 
+
+
+
 ## Screenshot of Survey:
 ![friendsurvey](/images/friend-survey.png)
+
+
 
 
 ## Screenshot of Match Page: 
